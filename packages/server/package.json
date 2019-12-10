@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "main": "main.ts",
+  "repository": "https://github.com/melkir/lerna-exemple",
+  "author": "melkir",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "ts-node main.ts"
+  }
+}
