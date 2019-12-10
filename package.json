@@ -5,11 +5,10 @@
     "packages/*"
   ],
   "scripts": {
+    "changes": "lerna changed --all --conventional-graduate",
+    "new-version": "lerna version --yes",
     "start": "lerna run --parallel start",
-    "diff": "lerna diff",
-    "test": "lerna run test --since",
-    "check:changes": "lerna changed --all --conventional-graduate",
-    "bump:version": "lerna version --yes"
+    "test": "lerna run test --since"
   },
   "devDependencies": {
     "lerna": "^3.19.0",
